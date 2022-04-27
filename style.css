@@ -1,0 +1,87 @@
+body {
+  prefers-color-scheme: dark;
+}
+#youtube-icon {
+  background-color: red;
+}
+div#parent {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  margin: 2px 0px;
+  padding: 0px;
+  align-content: space-evenly;
+  align-items: center;
+  width: 1500px;
+}
+#first_div {
+  display: flex;
+  float: left;
+  height: 100px;
+  width: 200px;
+  /* background-color: blue; */
+  align-items: center;
+}
+#second_div {
+  display: flex;
+  height: 100px;
+  width: 750px;
+  margin: 0px 200px;
+  /* background-color: red; */
+  align-items: center;
+}
+
+#third_div {
+  display: flex;
+  float: right;
+  height: 100px;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: green; */
+}
+input {
+  width: 700px;
+  height: 30px;
+  padding: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 5px;
+  background: url(image.png/search.png) no-repeat right;
+}
+#div_main {
+  font-weight: 500 bold;
+}
+#vid1 {
+  padding-right: 24px;
+  height: 300px;
+}
+#vid2 {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+#vid3 {
+  margin-left: 10px;
+  height: 300px;
+  width: 500px;
+}
+#vid4 {
+  margin-left: 10px;
+  height: 300px;
+}
+.div-video {
+  position: relative;
+}
+.video1 {
+  float: left;
+  height: 400px;
+  width: 40%;
+}
+.sub {
+  float: right;
+  height: 900px;
+  width: 200px;
+  display: grid;
+  position: fixed;
+  right: 4%;
+}
