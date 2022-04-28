@@ -1,5 +1,5 @@
 body {
-  prefers-color-scheme: dark;
+  color-scheme: dark;
 }
 #youtube-icon {
   background-color: red;
@@ -14,7 +14,8 @@ div#parent {
   align-items: center;
   width: 1500px;
 }
-#first_div {
+
+div#first_div {
   display: flex;
   float: left;
   height: 100px;
@@ -22,7 +23,8 @@ div#parent {
   /* background-color: blue; */
   align-items: center;
 }
-#second_div {
+
+div#second_div {
   display: flex;
   height: 100px;
   width: 750px;
@@ -31,7 +33,7 @@ div#parent {
   align-items: center;
 }
 
-#third_div {
+div#third_div {
   display: flex;
   float: right;
   height: 100px;
@@ -40,6 +42,7 @@ div#parent {
   justify-content: space-between;
   /* background-color: green; */
 }
+
 input {
   width: 700px;
   height: 30px;
@@ -47,29 +50,34 @@ input {
   font-size: 16px;
   font-weight: bold;
   margin-right: 5px;
-  background: url(image.png/search.png) no-repeat right;
+  /* background: url(image.png/ambetern.png); */
+  background: url(image.png/search.png) no-repeat right; */
 }
-#div_main {
+
+div#div_main {
   font-weight: 500 bold;
 }
-#vid1 {
+#video1 {
+  float: left;
   padding-right: 24px;
   height: 300px;
 }
-#vid2 {
+#video2 {
+  display: block;
+  float: right;
   margin-top: 5px;
   margin-left: 15px;
 }
-#vid3 {
-  margin-left: 10px;
-  height: 300px;
-  width: 500px;
+#frame1 {
+  margin-bottom: 10px;
+  
+  
 }
-#vid4 {
-  margin-left: 10px;
-  height: 300px;
+#frame2 {
+  margin-bottom: 10px;
+  
 }
-.div-video {
+.div-videos {
   position: relative;
 }
 .video1 {
@@ -84,4 +92,7 @@ input {
   display: grid;
   position: fixed;
   right: 4%;
+}
+#frame3{
+  background-color: beige;
 }
